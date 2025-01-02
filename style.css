@@ -1,0 +1,252 @@
+/* Style de base */
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(69, 162, 209);
+  color: white;
+  
+
+}
+
+
+hr {
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+/* Header */
+header {
+  background-image: url(image/imgdev.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.logo-html {
+  background-image: url(image/logo-html.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  padding: 0px;
+}
+
+header .logo {
+  cursor: pointer;
+}
+
+/* Navigation */
+nav {
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 10px 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Galerie de projets */
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.project h2 {
+  font-size: 45px;
+}
+
+.project img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  transition: box-shadow 0.3s ease;
+  border-radius: 20px;
+}
+
+.project:hover img {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Formulaire de contact */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+ 
+  
+  
+ 
+  
+}
+
+form label, form input, form textarea {
+  margin-bottom: 10px;
+  height: 25px;
+  border-radius: 25px;
+ 
+ 
+}
+.form-contact{
+  color: blue;
+}
+
+
+
+form textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+
+}
+
+.form {
+  background-image: url(image/fond-form.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  color: blue;}
+
+.form-contact{
+  background-image: url(image/fond-form.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: white;
+}
+
+/* Images */
+.img-moi {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Présentation */
+.presentation p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.presentation h1 {
+  font-size: 40px;
+}
+
+/* Bouton Top */
+.top {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.top a {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+.page-404 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.page-404 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-404 h1 {
+  font-size: 5em;
+  color: red;
+}
+
+
+.skills-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.skill {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.skill-title {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  
+}
+.skill-title-html{color: #e44d26;}
+.skill-title-css{color: #1572b6;}
+.skill-title-js{color: #f7df1e;}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 25px;
+  position: relative;
+}
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 25px;
+  transition: width 0.4s ease;
+}
+.progress-bar-fill.html { background-color: #e44d26; width: 90%; }
+.progress-bar-fill.css { background-color: #1572b6; width: 80%; }
+.progress-bar-fill.javascript { background-color: #f7df1e; width: 75%; }

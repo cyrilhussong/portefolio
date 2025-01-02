@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio en ligne pour présenter mes projets et compétences en développement web.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="app.js">
+  
+  
+  <title> Portfolio - [cyril hussong]</title>
+</head>
+<body >
+  
+  <!-- Header -->
+  <header id="header">
+    
+    
+    <nav >
+      
+      <h1>Cyril Hussong</h1>
+    
+    
+      <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#creations">Créations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+  <!-- Page d'accueil -->
+  <section class="presentation" id="presentation">
+    <h1>Bienvenue sur mon Portfolio</h1>
+    <p>Je m'appelle Cyril Hussong  26 ans , je suis développeur web full stack . <br> Voici quelques-uns de mes projets récents. Je vous invite à explorer mon portfolio pour découvrir mes projets, mon parcours, et mes compétences. N'hésitez pas à me contacter si vous avez une idée de projet ou souhaitez collaborer !
+    </p>
+  </section>
+
+
+  <hr>
+
+
+  <!-- Section Créations 1 -->
+  <section class="project" id="creations">
+    <h2 >Mes Projets</h2>
+    <div class="gallery">
+
+
+      <!-- Section cv -->
+      <div class="project" id="project">
+        <a href="cv.html">
+        <img src="image/logo-cv.jfif" alt="Projet 1">
+      </a>
+        <h3 >Mon CV</h3>
+      </div>
+    </div>
+    
+      <!-- Section cahier des charge -->
+      <div class="gallery">
+      <div class="project">
+        <a href="la-socketerie.pdf">
+        <img src="image/logo-cahiercharge.jfif" alt="Projet 2">
+      </a>
+        <h3> Mon cahier des charge </h3>
+      </div>
+     
+</div>
+
+
+<hr>
+
+<div class="skills-section">
+  <h2>Compétences</h2>
+  <div class="skill">
+      <div class="skill-title-html">HTML</div>
+      <div class="progress-bar">
+          <div class="progress-bar-fill html"></div>
+      </div>
+  </div>
+  <div class="skill">
+      <div class="skill-title-css">CSS</div>
+      <div class="progress-bar">
+          <div class="progress-bar-fill css"></div>
+      </div>
+  </div>
+  <div class="skill">
+      <div class="skill-title-js">JavaScript</div>
+      <div class="progress-bar">
+          <div class="progress-bar-fill javascript"></div>
+      </div>
+  </div>
+</div>
+
+
+      <!-- Section bagnieres html css js -->
+  </section>
+  <div class="logo-html">
+    <img src="image/logo-html.jfif" alt="">
+    
+
+  </div>
+
+
+  <!-- Section Contact -->
+  <section class="form" id="contact">
+    <h2>Contactez-moi</h2>
+    <form id="contact-form">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="subject">Prenom :</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Envoyer</button>
+      
+    </form>
+
+
+    <!--bouton retour haut de page-->
+    <div class="top" id="top">
+      <a  href="#header"> 
+        <img class="top" src="image/top.avif" alt="">Retour en haut
+      </a>
+    </div>
+  </section>
+
+
+  
+</main>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com" target="_blank">GitHub</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+    <p>Dernière mise à jour : [fin 2024]</p>
+  </footer>
+  
+
+
+  <!-- Script JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>
